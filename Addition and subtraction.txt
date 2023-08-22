@@ -1,0 +1,6 @@
+numl-as. integer (readline (prompt = "Enter the num 1:"))
+num2 =as. integer (readline (prompt = "Enter a number 2:"))
+sum=num1+num2
+sum=num1-num2
+print((paste("sum:", sum)))
+print((paste("sub:",sub)))
