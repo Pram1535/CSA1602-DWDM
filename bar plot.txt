@@ -1,0 +1,9 @@
+temperatures <- c(20, 22, 25, 29, 23, 27, 28)
+result <- barplot (temperatures,
+                   main= "Maximum Temperatures in a week",
+                   xlab= "Degree Celsius",
+                   ylab= "Day",
+                   names.arg= "blue",c("sun", "Mon","Tue", "wed","Thu","Fri","Sat"),
+                   col ="blue",
+) 
+print(result)
