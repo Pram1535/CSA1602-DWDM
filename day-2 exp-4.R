@@ -1,0 +1,15 @@
+min<-50000
+max<-100000
+#min-max
+normalisation<-((80-min)/(max-min))
+print(normalisation)
+v<-c(200,300,400,600,1000)
+minn<-200
+maxx<-1000
+min_max=((v-minn)/(maxx-minn))
+print(min_max)
+#z_score
+v1<-mean(v)
+v2<-sd(v)
+z_score<-((v-v1)/v2)
+print(z_score)
